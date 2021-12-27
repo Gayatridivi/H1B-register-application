@@ -1,0 +1,10 @@
+{
+  "h1BRegisterApplicationApp": {
+    "GenderType": {
+      "null": "",
+      "MALE": "MALE",
+      "FEMALE": "FEMALE",
+      "OTHERS": "OTHERS"
+    }
+  }
+}

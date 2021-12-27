@@ -1,0 +1,48 @@
+{
+  "name": "LoginProfile",
+  "fields": [
+    {
+      "fieldName": "userName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "userId",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "memberId",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "phoneNumber",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "emailId",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "password",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "status",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "activationCode",
+      "fieldType": "String"
+    }
+  ],
+  "relationships": [],
+  "entityTableName": "login_profile",
+  "dto": "no",
+  "pagination": "pagination",
+  "service": "serviceImpl",
+  "jpaMetamodelFiltering": true,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "applications": "*",
+  "changelogDate": "20211227030710"
+}

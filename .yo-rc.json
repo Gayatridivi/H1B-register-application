@@ -42,7 +42,9 @@
     "clientTheme": "none",
     "clientThemeVariant": "",
     "reactive": false,
-    "enableGradleEnterprise": false
+    "enableGradleEnterprise": false,
+    "entities": ["LoginProfile", "BioProfile", "H1B"],
+    "lastLiquibaseTimestamp": 1640574432000
   },
   "git-provider": "GitHub",
   "git-company": "Gayatridivi",

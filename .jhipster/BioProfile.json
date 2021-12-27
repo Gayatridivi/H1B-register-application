@@ -1,0 +1,58 @@
+{
+  "name": "BioProfile",
+  "fields": [
+    {
+      "fieldName": "userName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "userId",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "memberId",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "firstName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "lastName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "dob",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "gender",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "imageUrl",
+      "fieldType": "byte[]",
+      "fieldTypeBlobContent": "text"
+    },
+    {
+      "fieldName": "title",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "summary",
+      "fieldType": "byte[]",
+      "fieldTypeBlobContent": "text"
+    }
+  ],
+  "relationships": [],
+  "entityTableName": "bio_profile",
+  "dto": "no",
+  "pagination": "no",
+  "service": "serviceImpl",
+  "jpaMetamodelFiltering": true,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "applications": "*",
+  "changelogDate": "20211227030711"
+}
