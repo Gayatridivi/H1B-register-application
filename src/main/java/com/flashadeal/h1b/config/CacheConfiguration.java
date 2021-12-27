@@ -48,6 +48,9 @@ public class CacheConfiguration {
             createCache(cm, com.flashadeal.h1b.domain.User.class.getName());
             createCache(cm, com.flashadeal.h1b.domain.Authority.class.getName());
             createCache(cm, com.flashadeal.h1b.domain.User.class.getName() + ".authorities");
+            createCache(cm, com.flashadeal.h1b.domain.LoginProfile.class.getName());
+            createCache(cm, com.flashadeal.h1b.domain.BioProfile.class.getName());
+            createCache(cm, com.flashadeal.h1b.domain.H1B.class.getName());
             // jhipster-needle-ehcache-add-entry
         };
     }
